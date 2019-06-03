@@ -1,3 +1,3 @@
 class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
+  validates :saying, presence: true, length: { maximum: 140, minimum: 3 }
 end
