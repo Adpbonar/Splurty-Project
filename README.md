@@ -1,4 +1,4 @@
-# README
+# Splurty
 
 Built using Ruby 2.5.3 and Rails 5.2.3, this quote generator and displays quotes randomly to users. Powered by PostgreSQL, the database accepts authors and quotes to populate the database. This app is styled with CSS.
 
